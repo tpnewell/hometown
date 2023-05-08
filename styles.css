@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    width: 720px;
+}
+
+img {
+    height: 150px;
+    margin: 20px;
+}
+
+.hero-wrapper {
+    background-image: url("images/palmer-lake.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 343px;
+    
+}
+
+.hero-title {
+    color: white;
+    background-color: #9B2915 ;
+    padding: 0px 10px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.hero-subheading {
+    color: white;
+    background-color: #4ECDC4;
+    padding: 3px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.activities-wrapper {
+    display: flex;
+    background-color: #E9B44C;
+    height: 378px;
+    flex-direction: column;
+}
+
+/* div box holding activities */
+.inside-wrapper {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-activity {
+    display: flex;
+
+}
+
+.activity-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#activity-title {
+    margin: 40px auto 55px auto;
+    font-size: 24px;
+}
+
+/* wrapper holding guide */
+.guide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 394px
+}
+
+.guide-wrapper {
+    display: flex;
+    background: #b09fa4;
+    border-bottom: 10px solid #50723C;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.guide-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+/* utility class */
+.outline {
+    border: 1px solid red;
+}
