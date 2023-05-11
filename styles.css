@@ -1,20 +1,14 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     width: 720px;
+    margin: 0 auto;
+    font-family: Trebuchet;
 }
 
-img {
+.guide-img {
     height: 150px;
-    margin: 20px;
+    margin: auto 30px;
+    border-radius: 5%;
+    border: 1px solid #E76F51;
 }
 
 .hero-wrapper {
@@ -26,75 +20,92 @@ img {
     justify-content: center;
     margin: 0 auto;
     height: 343px;
-    
 }
 
 .hero-title {
     color: white;
-    background-color: #9B2915 ;
+    background-color: #264653 ;
     padding: 0px 10px;
     font-size: 32px;
     border-radius: 10px;
+    margin: 15px;
 }
 
 .hero-subheading {
     color: white;
-    background-color: #4ECDC4;
-    padding: 3px 15px;
+    background-color: #2A9D8F;
+    padding: 3px 20px;
     font-size: 14px;
     border-radius: 5px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .activities-wrapper {
     display: flex;
-    background-color: #E9B44C;
-    height: 378px;
+    background-color: #E76F51;
     flex-direction: column;
+}
+
+.activity-title {
+   margin: 0px; 
+   padding: 15px 0px;
+}
+
+.activity-subheading {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.activity-subheading:nth-child(3) {
+    padding-bottom: 15px;
 }
 
 /* div box holding activities */
 .inside-wrapper {
     display: flex;
-    justify-content: space-around;
-    border: 1px solid green;
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
 }
 
 .activity {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
-}
-
-.main-activity {
-    display: flex;
-
+    padding: 0px;
 }
 
 .activity-img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin: 0px;
 }
 
 #activity-title {
-    margin: 40px auto 55px auto;
+    margin: 40px auto;
     font-size: 24px;
 }
 
 /* wrapper holding guide */
 .guide {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    height: 394px
+    flex: 1;
+    padding: 40px;
 }
 
 .guide-wrapper {
     display: flex;
-    background: #b09fa4;
-    border-bottom: 10px solid #50723C;
+    background: #E9C46A;
+    border-bottom: 10px solid #56564c;
     border-radius: 10px;
     width: 400px;
+    height: 200px;
 }
 
 .guide-text-wrapper {
@@ -104,7 +115,19 @@ img {
     margin: 10px;
 }
 
-/* utility class */
-.outline {
-    border: 1px solid red;
+.guide-heading {
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+.guide-subheading {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0;
+
+}
+
+.guide-name {
+    font-size: 18px;
+    margin: 0px;
 }
