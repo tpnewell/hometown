@@ -1,7 +1,6 @@
 body {
-    width: 720px;
     margin: 0 auto;
-    font-family: Trebuchet;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .guide-img {
@@ -25,16 +24,16 @@ body {
 .hero-title {
     color: white;
     background-color: #264653 ;
-    padding: 0px 10px;
+    padding: 10px 15px;
     font-size: 32px;
     border-radius: 10px;
-    margin: 15px;
+    margin-bottom: 30px;
 }
 
 .hero-subheading {
     color: white;
     background-color: #2A9D8F;
-    padding: 3px 20px;
+    padding: 10px 15px;
     font-size: 14px;
     border-radius: 5px;
     margin: 0px;
@@ -44,7 +43,7 @@ body {
 
 .activities-wrapper {
     display: flex;
-    background-color: #E76F51;
+    background-color: RGB(175, 225, 175, 0.5);
     flex-direction: column;
 }
 
@@ -101,8 +100,8 @@ body {
 
 .guide-wrapper {
     display: flex;
-    background: #E9C46A;
-    border-bottom: 10px solid #56564c;
+    background: #2A9D8F;
+    border-bottom: 10px solid #264653;
     border-radius: 10px;
     width: 400px;
     height: 200px;
